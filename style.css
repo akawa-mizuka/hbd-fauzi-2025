@@ -27,7 +27,7 @@ align-items: center;
 justify-content: center;
 gap: 15px;
 }
-.login-btn-yes, .login-btn-no{
+button{
 cursor: pointer;
 background: #A7B2F2;
 color: #262626;
@@ -39,12 +39,7 @@ border: none;
 padding: 5px 0;
 font-family: caveat brush;
 }
-.login-btn-yes a, .login-btn-no a{
-text-decoration: none;
-color: #262626;
-font-family: caveat brush;
-}
-.login-btn-yes:active, .login-btn-no:active {
+button:active {
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
