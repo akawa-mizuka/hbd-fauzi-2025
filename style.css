@@ -1,0 +1,47 @@
+body{
+background: #262626;
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+*{
+font-size: 1rem;
+}
+.login{
+background: white;
+height: fit-content;
+text-align: center;
+padding: 1rem 3rem;
+border-radius: 5px;
+font-family: caveat;
+}
+.login-btn{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+.login-btn-yes, .login-btn-no{
+cursor: pointer;
+background: #A7B2F2;
+color: #262626;
+text-align: center;
+width: 50px;
+box-shadow: 0 5px #999;
+border-radius: 5px;
+border: none;
+padding: 5px 0;
+font-family: caveat brush;
+}
+.login-btn-yes a, .login-btn-no a{
+text-decoration: none;
+color: #262626;
+font-family: caveat brush;
+}
+.login-btn-yes:active, .login-btn-no:active {
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
